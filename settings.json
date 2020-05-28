@@ -1,0 +1,160 @@
+{
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+
+    "defaultProfile": "{c6eaf9f4-32a7-5fdc-b5cf-066e8a4b1e40}",
+
+    "profiles":
+    [
+        {
+            "acrylicOpacity" : 0.95,
+            "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+            "name": "Windows PowerShell",
+            "commandline": "powershell.exe",
+            "hidden": false,
+            "colorScheme": "Chester",
+            "padding": "16, 16, 16, 16",
+            "useAcrylic": true
+        },
+        {
+            "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+            "name": "cmd",
+            "commandline": "cmd.exe",
+            "hidden": false,
+            "padding": "16, 16, 16, 16",
+            "useAcrylic": true
+        },
+        {
+            "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+            "hidden": true,
+            "name": "Azure Cloud Shell",
+            "source": "Windows.Terminal.Azure"
+        },
+        {
+            "acrylicOpacity" : 0.9,
+            "guid": "{c6eaf9f4-32a7-5fdc-b5cf-066e8a4b1e40}",
+            "hidden": false,
+            "name": "Ubuntu-18.04",
+            "source": "Windows.Terminal.Wsl",
+            "startingDirectory": "//wsl$/Ubuntu-18.04/users/apoirel",
+            "colorScheme": "Chester",
+            "padding": "16, 16, 16, 16",
+            "useAcrylic": true
+        }
+    ],
+
+    "schemes": 
+    [
+        {
+            "name": "Dracula",
+            "black": "#000000",
+            "red": "#ff5555",
+            "green": "#50fa7b",
+            "yellow": "#f1fa8c",
+            "blue": "#bd93f9",
+            "purple": "#ff79c6",
+            "cyan": "#8be9fd",
+            "white": "#bbbbbb",
+            "brightBlack": "#555555",
+            "brightRed": "#ff5555",
+            "brightGreen": "#50fa7b",
+            "brightYellow": "#f1fa8c",
+            "brightBlue": "#bd93f9",
+            "brightPurple": "#ff79c6",
+            "brightCyan": "#8be9fd",
+            "brightWhite": "#ffffff",
+            "background": "#1e1f29",
+            "foreground": "#f8f8f2"
+          },
+          {
+            "name": "AtomOneLight",
+            "black": "#000000",
+            "red": "#de3e35",
+            "green": "#3f953a",
+            "yellow": "#d2b67c",
+            "blue": "#2f5af3",
+            "purple": "#950095",
+            "cyan": "#3f953a",
+            "white": "#bbbbbb",
+            "brightBlack": "#000000",
+            "brightRed": "#de3e35",
+            "brightGreen": "#3f953a",
+            "brightYellow": "#d2b67c",
+            "brightBlue": "#2f5af3",
+            "brightPurple": "#a00095",
+            "brightCyan": "#3f953a",
+            "brightWhite": "#ffffff",
+            "background": "#f9f9f9",
+            "foreground": "#2a2c33"
+          },
+          {
+            "name": "OneDark",
+            "black": "#1e2127",
+            "red": "#e06c75",
+            "green": "#98c379",
+            "yellow": "#d19a66",
+            "blue": "#61afef",
+            "purple": "#c678dd",
+            "cyan": "#56b6c2",
+            "white": "#abb2bf",
+            "brightBlack": "#5c6370",
+            "brightRed": "#e06c75",
+            "brightGreen": "#98c379",
+            "brightYellow": "#d19a66",
+            "brightBlue": "#61afef",
+            "brightPurple": "#c678dd",
+            "brightCyan": "#56b6c2",
+            "brightWhite": "#ffffff",
+            "background": "#1e2127",
+            "foreground": "#abb2bf"
+          },
+          {
+            "name": "OneHalfLight",
+            "black": "#383a42",
+            "red": "#e45649",
+            "green": "#50a14f",
+            "yellow": "#c18401",
+            "blue": "#0184bc",
+            "purple": "#a626a4",
+            "cyan": "#0997b3",
+            "white": "#fafafa",
+            "brightBlack": "#4f525e",
+            "brightRed": "#e06c75",
+            "brightGreen": "#98c379",
+            "brightYellow": "#e5c07b",
+            "brightBlue": "#61afef",
+            "brightPurple": "#c678dd",
+            "brightCyan": "#56b6c2",
+            "brightWhite": "#ffffff",
+            "background": "#fafafa",
+            "foreground": "#383a42"
+          },
+
+
+          {
+            "name": "Chester",
+            "black": "#080200",
+            "red": "#fa5e5b",
+            "green": "#16c98d",
+            "yellow": "#ffc83f",
+            "blue": "#288ad6",
+            "purple": "#d34590",
+            "cyan": "#28ddde",
+            "white": "#e7e7e7",
+            "brightBlack": "#6f6b68",
+            "brightRed": "#fa5e5b",
+            "brightGreen": "#16c98d",
+            "brightYellow": "#feef6d",
+            "brightBlue": "#278ad6",
+            "brightPurple": "#d34590",
+            "brightCyan": "#27dede",
+            "brightWhite": "#ffffff",
+            "background": "#2c3643",
+            "foreground": "#ffffff"
+        }
+    ],
+
+    // To unbind a default keybinding, set the command to "unbound"
+    "keybindings": []
+}
+
+
